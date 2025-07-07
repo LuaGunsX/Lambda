@@ -6,7 +6,7 @@ echo ============================
 echo       PROJECT LAMBDA
 echo        Alpha 0.0.1
 echo ============================
-echo 1) Download clients | 2) Settings
+echo 1) Download clients | 2) Config
 echo 3) Launch instance | 4) About
 echo 5) Exit
 echo.
