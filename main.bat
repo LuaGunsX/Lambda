@@ -8,7 +8,7 @@ echo        Alpha 0.0.1
 echo ============================
 echo 1) Download clients | 2) Config
 echo 3) Launch instance | 4) About
-echo 5) Exit
+echo 5) Leave
 echo.
 set /p choice=Select an option (1-5): 
 
