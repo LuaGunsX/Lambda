@@ -5,7 +5,7 @@ title Lambda a0.1 ^| λ
 cls
 echo ============================
 echo       PROJECT LAMBDA
-echo        Alpha 0.0.1
+echo        Alpha 0.0.2
 echo ============================
 echo 1) Download clients
 echo 2) Config
@@ -27,7 +27,26 @@ if "%choice%"=="7" goto exit
 goto menu
 
 :download
-echo Downloading clients is not yet available.
+cls
+echo ------------------------------
+echo    Client Downloader 5000
+echo ------------------------------
+echo 1) 2008M
+echo 2) 2014M
+echo.
+
+set /p choice="Select a client (1-2): "
+
+if "%choice%"=="1" (
+    echo Downloading 2008M...
+    REM Download logic for 2008M
+) else if "%choice%"=="2" (
+    echo Downloading 2014M...
+    REM Not added yet
+) else (
+    echo Invalid choice.
+)
+
 pause
 goto menu
 
@@ -45,7 +64,7 @@ goto menu
 
 :about
 echo Project Lambda is a revival-style launcher that can launch instances of ROBLOX.
-echo Version Alpha 0.0.1
+echo Version Alpha 0.0.2
 pause
 goto menu
 
