@@ -1,5 +1,5 @@
 @echo off
-title Lambda a0.1 ^| λ
+title Lambda a0.0.2 ^| λ
 
 :menu
 cls
