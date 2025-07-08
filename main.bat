@@ -39,7 +39,7 @@ set /p choice="Select a client (1-2): "
 
 if "%choice%"=="1" (
     echo Downloading 2008M...
-    REM Download logic for 2008M
+    REM Not added yet
 ) else if "%choice%"=="2" (
     echo Downloading 2014M...
     REM Not added yet
