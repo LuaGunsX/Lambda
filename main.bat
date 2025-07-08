@@ -7,11 +7,11 @@ echo ============================
 echo       PROJECT LAMBDA
 echo        Alpha 0.0.2
 echo ============================
-echo 1) Download clients
+echo 1) Download clients (WIP)
 echo 2) Config
-echo 3) Launch instance
+echo 3) Launch instance (WIP)
 echo 4) About
-echo 5) Customize avatar
+echo 5) Customize avatar (WIP)
 echo 6) Help
 echo 7) Leave
 echo.
