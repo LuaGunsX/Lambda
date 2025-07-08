@@ -41,7 +41,7 @@ if "%choice%"=="1" (
     echo Downloading 2008M...
     curl -o 2008M.zip https://lambda.luagunsx.xyz/clients/2008M.zip
     mkdir ./clients/
-    7z x 2008M.zip -o ./clients/2008M/
+    "C:\Program Files\7-Zip\7z.exe" x 2008M.zip -oclients\2008M\ -y
 ) else if "%choice%"=="2" (
     echo Downloading 2014M...
     REM Not added yet
