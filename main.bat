@@ -11,15 +11,19 @@ echo 1) Download clients
 echo 2) Config
 echo 3) Launch instance
 echo 4) About
-echo 5) Leave
+echo 5) Customize avatar
+echo 6) Help
+echo 7) Leave
 echo.
-set /p choice=Select an option (1-5): 
+set /p choice=Select an option (1-7): 
 
 if "%choice%"=="1" goto download
 if "%choice%"=="2" goto config
 if "%choice%"=="3" goto launch
 if "%choice%"=="4" goto about
-if "%choice%"=="5" goto exit
+if "%choice%"=="5" goto avatar
+if "%choice%"=="6" goto help
+if "%choice%"=="7" goto exit
 goto menu
 
 :download
@@ -45,7 +49,17 @@ echo Version Alpha 0.0.1
 pause
 goto menu
 
+:avatar
+echo This feature is not here yet!
+pause
+goto menu
+
+:help
+start https://github.com/LuaGunsX/Lambda/wiki/Troubleshooting
+pause
+goto menu
+
 :exit
-echo Goodbye.
+echo Goodbye! Hope to see you soon!
 pause
 exit
