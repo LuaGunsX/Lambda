@@ -1,11 +1,11 @@
 @echo off
-title Lambda a0.0.2 ^| λ
+title Lambda ^| λ
 
 :menu
 cls
 echo ============================
 echo       PROJECT LAMBDA
-echo        Alpha 0.0.2
+echo        Nightly v0.1
 echo ============================
 echo 1) Download clients (WIP)
 echo 2) Config
