@@ -38,6 +38,7 @@ echo.
 set /p choice="Select a client (1-2): "
 
 if "%choice%"=="1" (
+    echo WARNING! This version is vulnerable to several security vulnerabilities.
     echo Downloading 2008M...
     curl tba
 ) else if "%choice%"=="2" (
