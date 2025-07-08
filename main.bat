@@ -38,9 +38,10 @@ echo.
 set /p choice="Select a client (1-2): "
 
 if "%choice%"=="1" (
-    echo WARNING! This version is vulnerable to several security vulnerabilities.
     echo Downloading 2008M...
-    curl tba
+    curl -o 2008M.zip https://lambda.luagunsx.xyz/clients/2008M.zip
+    mkdir ./clients/
+    7z x 2008M.zip -o ./clients/2008M/
 ) else if "%choice%"=="2" (
     echo Downloading 2014M...
     REM Not added yet
